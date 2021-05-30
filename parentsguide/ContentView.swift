@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Parent's Guide
+//  parentsguide
 //
 //  Created by Dyllon on 30/5/21.
 //

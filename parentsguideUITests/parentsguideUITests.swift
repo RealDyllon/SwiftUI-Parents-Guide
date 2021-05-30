@@ -1,13 +1,13 @@
 //
-//  Parent_s_GuideUITests.swift
-//  Parent's GuideUITests
+//  parentsguideUITests.swift
+//  parentsguideUITests
 //
 //  Created by Dyllon on 30/5/21.
 //
 
 import XCTest
 
-class Parent_s_GuideUITests: XCTestCase {
+class parentsguideUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

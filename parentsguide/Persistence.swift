@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  Parent's Guide
+//  parentsguide
 //
 //  Created by Dyllon on 30/5/21.
 //
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentCloudKitContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentCloudKitContainer(name: "Parent_s_Guide")
+        container = NSPersistentCloudKitContainer(name: "parentsguide")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		530E488C2663836100790DA3 /* Parent_s_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E488B2663836100790DA3 /* Parent_s_GuideApp.swift */; };
-		530E488E2663836100790DA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E488D2663836100790DA3 /* ContentView.swift */; };
-		530E48902663836600790DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530E488F2663836600790DA3 /* Assets.xcassets */; };
-		530E48932663836600790DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530E48922663836600790DA3 /* Preview Assets.xcassets */; };
-		530E48952663836600790DA3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48942663836600790DA3 /* Persistence.swift */; };
-		530E48982663836600790DA3 /* Parent_s_Guide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 530E48962663836600790DA3 /* Parent_s_Guide.xcdatamodeld */; };
-		530E48A32663836600790DA3 /* Parent_s_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48A22663836600790DA3 /* Parent_s_GuideTests.swift */; };
-		530E48AE2663836600790DA3 /* Parent_s_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48AD2663836600790DA3 /* Parent_s_GuideUITests.swift */; };
+		530E48C9266385D200790DA3 /* parentsguideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48C8266385D200790DA3 /* parentsguideApp.swift */; };
+		530E48CB266385D200790DA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48CA266385D200790DA3 /* ContentView.swift */; };
+		530E48CD266385D800790DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530E48CC266385D800790DA3 /* Assets.xcassets */; };
+		530E48D0266385D800790DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530E48CF266385D800790DA3 /* Preview Assets.xcassets */; };
+		530E48D2266385D800790DA3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48D1266385D800790DA3 /* Persistence.swift */; };
+		530E48D5266385D800790DA3 /* parentsguide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 530E48D3266385D800790DA3 /* parentsguide.xcdatamodeld */; };
+		530E48E0266385D800790DA3 /* parentsguideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48DF266385D800790DA3 /* parentsguideTests.swift */; };
+		530E48EB266385D800790DA3 /* parentsguideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E48EA266385D800790DA3 /* parentsguideUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		530E489F2663836600790DA3 /* PBXContainerItemProxy */ = {
+		530E48DC266385D800790DA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 530E48802663836100790DA3 /* Project object */;
+			containerPortal = 530E48BD266385D200790DA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 530E48872663836100790DA3;
-			remoteInfo = "Parent's Guide";
+			remoteGlobalIDString = 530E48C4266385D200790DA3;
+			remoteInfo = parentsguide;
 		};
-		530E48AA2663836600790DA3 /* PBXContainerItemProxy */ = {
+		530E48E7266385D800790DA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 530E48802663836100790DA3 /* Project object */;
+			containerPortal = 530E48BD266385D200790DA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 530E48872663836100790DA3;
-			remoteInfo = "Parent's Guide";
+			remoteGlobalIDString = 530E48C4266385D200790DA3;
+			remoteInfo = parentsguide;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		530E48882663836100790DA3 /* Parent's Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parent's Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		530E488B2663836100790DA3 /* Parent_s_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent_s_GuideApp.swift; sourceTree = "<group>"; };
-		530E488D2663836100790DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		530E488F2663836600790DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		530E48922663836600790DA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		530E48942663836600790DA3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		530E48972663836600790DA3 /* Parent_s_Guide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parent_s_Guide.xcdatamodel; sourceTree = "<group>"; };
-		530E48992663836600790DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		530E489E2663836600790DA3 /* Parent's GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parent's GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		530E48A22663836600790DA3 /* Parent_s_GuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent_s_GuideTests.swift; sourceTree = "<group>"; };
-		530E48A42663836600790DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		530E48A92663836600790DA3 /* Parent's GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parent's GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		530E48AD2663836600790DA3 /* Parent_s_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent_s_GuideUITests.swift; sourceTree = "<group>"; };
-		530E48AF2663836600790DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530E48C5266385D200790DA3 /* parentsguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parentsguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530E48C8266385D200790DA3 /* parentsguideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parentsguideApp.swift; sourceTree = "<group>"; };
+		530E48CA266385D200790DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		530E48CC266385D800790DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		530E48CF266385D800790DA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		530E48D1266385D800790DA3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		530E48D4266385D800790DA3 /* parentsguide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = parentsguide.xcdatamodel; sourceTree = "<group>"; };
+		530E48D6266385D800790DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530E48DB266385D800790DA3 /* parentsguideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parentsguideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		530E48DF266385D800790DA3 /* parentsguideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parentsguideTests.swift; sourceTree = "<group>"; };
+		530E48E1266385D800790DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530E48E6266385D800790DA3 /* parentsguideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parentsguideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		530E48EA266385D800790DA3 /* parentsguideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parentsguideUITests.swift; sourceTree = "<group>"; };
+		530E48EC266385D800790DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		530E48852663836100790DA3 /* Frameworks */ = {
+		530E48C2266385D200790DA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530E489B2663836600790DA3 /* Frameworks */ = {
+		530E48D8266385D800790DA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530E48A62663836600790DA3 /* Frameworks */ = {
+		530E48E3266385D800790DA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,145 +76,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		530E487F2663836100790DA3 = {
+		530E48BC266385D200790DA3 = {
 			isa = PBXGroup;
 			children = (
-				530E488A2663836100790DA3 /* Parent's Guide */,
-				530E48A12663836600790DA3 /* Parent's GuideTests */,
-				530E48AC2663836600790DA3 /* Parent's GuideUITests */,
-				530E48892663836100790DA3 /* Products */,
+				530E48C7266385D200790DA3 /* parentsguide */,
+				530E48DE266385D800790DA3 /* parentsguideTests */,
+				530E48E9266385D800790DA3 /* parentsguideUITests */,
+				530E48C6266385D200790DA3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		530E48892663836100790DA3 /* Products */ = {
+		530E48C6266385D200790DA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				530E48882663836100790DA3 /* Parent's Guide.app */,
-				530E489E2663836600790DA3 /* Parent's GuideTests.xctest */,
-				530E48A92663836600790DA3 /* Parent's GuideUITests.xctest */,
+				530E48C5266385D200790DA3 /* parentsguide.app */,
+				530E48DB266385D800790DA3 /* parentsguideTests.xctest */,
+				530E48E6266385D800790DA3 /* parentsguideUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		530E488A2663836100790DA3 /* Parent's Guide */ = {
+		530E48C7266385D200790DA3 /* parentsguide */ = {
 			isa = PBXGroup;
 			children = (
-				530E488B2663836100790DA3 /* Parent_s_GuideApp.swift */,
-				530E488D2663836100790DA3 /* ContentView.swift */,
-				530E488F2663836600790DA3 /* Assets.xcassets */,
-				530E48942663836600790DA3 /* Persistence.swift */,
-				530E48992663836600790DA3 /* Info.plist */,
-				530E48962663836600790DA3 /* Parent_s_Guide.xcdatamodeld */,
-				530E48912663836600790DA3 /* Preview Content */,
+				530E48C8266385D200790DA3 /* parentsguideApp.swift */,
+				530E48CA266385D200790DA3 /* ContentView.swift */,
+				530E48CC266385D800790DA3 /* Assets.xcassets */,
+				530E48D1266385D800790DA3 /* Persistence.swift */,
+				530E48D6266385D800790DA3 /* Info.plist */,
+				530E48D3266385D800790DA3 /* parentsguide.xcdatamodeld */,
+				530E48CE266385D800790DA3 /* Preview Content */,
 			);
-			path = "Parent's Guide";
+			path = parentsguide;
 			sourceTree = "<group>";
 		};
-		530E48912663836600790DA3 /* Preview Content */ = {
+		530E48CE266385D800790DA3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				530E48922663836600790DA3 /* Preview Assets.xcassets */,
+				530E48CF266385D800790DA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		530E48A12663836600790DA3 /* Parent's GuideTests */ = {
+		530E48DE266385D800790DA3 /* parentsguideTests */ = {
 			isa = PBXGroup;
 			children = (
-				530E48A22663836600790DA3 /* Parent_s_GuideTests.swift */,
-				530E48A42663836600790DA3 /* Info.plist */,
+				530E48DF266385D800790DA3 /* parentsguideTests.swift */,
+				530E48E1266385D800790DA3 /* Info.plist */,
 			);
-			path = "Parent's GuideTests";
+			path = parentsguideTests;
 			sourceTree = "<group>";
 		};
-		530E48AC2663836600790DA3 /* Parent's GuideUITests */ = {
+		530E48E9266385D800790DA3 /* parentsguideUITests */ = {
 			isa = PBXGroup;
 			children = (
-				530E48AD2663836600790DA3 /* Parent_s_GuideUITests.swift */,
-				530E48AF2663836600790DA3 /* Info.plist */,
+				530E48EA266385D800790DA3 /* parentsguideUITests.swift */,
+				530E48EC266385D800790DA3 /* Info.plist */,
 			);
-			path = "Parent's GuideUITests";
+			path = parentsguideUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		530E48872663836100790DA3 /* Parent's Guide */ = {
+		530E48C4266385D200790DA3 /* parentsguide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 530E48B22663836600790DA3 /* Build configuration list for PBXNativeTarget "Parent's Guide" */;
+			buildConfigurationList = 530E48EF266385D800790DA3 /* Build configuration list for PBXNativeTarget "parentsguide" */;
 			buildPhases = (
-				530E48842663836100790DA3 /* Sources */,
-				530E48852663836100790DA3 /* Frameworks */,
-				530E48862663836100790DA3 /* Resources */,
+				530E48C1266385D200790DA3 /* Sources */,
+				530E48C2266385D200790DA3 /* Frameworks */,
+				530E48C3266385D200790DA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Parent's Guide";
-			productName = "Parent's Guide";
-			productReference = 530E48882663836100790DA3 /* Parent's Guide.app */;
+			name = parentsguide;
+			productName = parentsguide;
+			productReference = 530E48C5266385D200790DA3 /* parentsguide.app */;
 			productType = "com.apple.product-type.application";
 		};
-		530E489D2663836600790DA3 /* Parent's GuideTests */ = {
+		530E48DA266385D800790DA3 /* parentsguideTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 530E48B52663836600790DA3 /* Build configuration list for PBXNativeTarget "Parent's GuideTests" */;
+			buildConfigurationList = 530E48F2266385D800790DA3 /* Build configuration list for PBXNativeTarget "parentsguideTests" */;
 			buildPhases = (
-				530E489A2663836600790DA3 /* Sources */,
-				530E489B2663836600790DA3 /* Frameworks */,
-				530E489C2663836600790DA3 /* Resources */,
+				530E48D7266385D800790DA3 /* Sources */,
+				530E48D8266385D800790DA3 /* Frameworks */,
+				530E48D9266385D800790DA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				530E48A02663836600790DA3 /* PBXTargetDependency */,
+				530E48DD266385D800790DA3 /* PBXTargetDependency */,
 			);
-			name = "Parent's GuideTests";
-			productName = "Parent's GuideTests";
-			productReference = 530E489E2663836600790DA3 /* Parent's GuideTests.xctest */;
+			name = parentsguideTests;
+			productName = parentsguideTests;
+			productReference = 530E48DB266385D800790DA3 /* parentsguideTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		530E48A82663836600790DA3 /* Parent's GuideUITests */ = {
+		530E48E5266385D800790DA3 /* parentsguideUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 530E48B82663836600790DA3 /* Build configuration list for PBXNativeTarget "Parent's GuideUITests" */;
+			buildConfigurationList = 530E48F5266385D800790DA3 /* Build configuration list for PBXNativeTarget "parentsguideUITests" */;
 			buildPhases = (
-				530E48A52663836600790DA3 /* Sources */,
-				530E48A62663836600790DA3 /* Frameworks */,
-				530E48A72663836600790DA3 /* Resources */,
+				530E48E2266385D800790DA3 /* Sources */,
+				530E48E3266385D800790DA3 /* Frameworks */,
+				530E48E4266385D800790DA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				530E48AB2663836600790DA3 /* PBXTargetDependency */,
+				530E48E8266385D800790DA3 /* PBXTargetDependency */,
 			);
-			name = "Parent's GuideUITests";
-			productName = "Parent's GuideUITests";
-			productReference = 530E48A92663836600790DA3 /* Parent's GuideUITests.xctest */;
+			name = parentsguideUITests;
+			productName = parentsguideUITests;
+			productReference = 530E48E6266385D800790DA3 /* parentsguideUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		530E48802663836100790DA3 /* Project object */ = {
+		530E48BD266385D200790DA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					530E48872663836100790DA3 = {
+					530E48C4266385D200790DA3 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					530E489D2663836600790DA3 = {
+					530E48DA266385D800790DA3 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 530E48872663836100790DA3;
+						TestTargetID = 530E48C4266385D200790DA3;
 					};
-					530E48A82663836600790DA3 = {
+					530E48E5266385D800790DA3 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 530E48872663836100790DA3;
+						TestTargetID = 530E48C4266385D200790DA3;
 					};
 				};
 			};
-			buildConfigurationList = 530E48832663836100790DA3 /* Build configuration list for PBXProject "Parent's Guide" */;
+			buildConfigurationList = 530E48C0266385D200790DA3 /* Build configuration list for PBXProject "parentsguide" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,36 +222,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 530E487F2663836100790DA3;
-			productRefGroup = 530E48892663836100790DA3 /* Products */;
+			mainGroup = 530E48BC266385D200790DA3;
+			productRefGroup = 530E48C6266385D200790DA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				530E48872663836100790DA3 /* Parent's Guide */,
-				530E489D2663836600790DA3 /* Parent's GuideTests */,
-				530E48A82663836600790DA3 /* Parent's GuideUITests */,
+				530E48C4266385D200790DA3 /* parentsguide */,
+				530E48DA266385D800790DA3 /* parentsguideTests */,
+				530E48E5266385D800790DA3 /* parentsguideUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		530E48862663836100790DA3 /* Resources */ = {
+		530E48C3266385D200790DA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530E48932663836600790DA3 /* Preview Assets.xcassets in Resources */,
-				530E48902663836600790DA3 /* Assets.xcassets in Resources */,
+				530E48D0266385D800790DA3 /* Preview Assets.xcassets in Resources */,
+				530E48CD266385D800790DA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530E489C2663836600790DA3 /* Resources */ = {
+		530E48D9266385D800790DA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530E48A72663836600790DA3 /* Resources */ = {
+		530E48E4266385D800790DA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,50 +261,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		530E48842663836100790DA3 /* Sources */ = {
+		530E48C1266385D200790DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530E48982663836600790DA3 /* Parent_s_Guide.xcdatamodeld in Sources */,
-				530E48952663836600790DA3 /* Persistence.swift in Sources */,
-				530E488E2663836100790DA3 /* ContentView.swift in Sources */,
-				530E488C2663836100790DA3 /* Parent_s_GuideApp.swift in Sources */,
+				530E48D5266385D800790DA3 /* parentsguide.xcdatamodeld in Sources */,
+				530E48D2266385D800790DA3 /* Persistence.swift in Sources */,
+				530E48CB266385D200790DA3 /* ContentView.swift in Sources */,
+				530E48C9266385D200790DA3 /* parentsguideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530E489A2663836600790DA3 /* Sources */ = {
+		530E48D7266385D800790DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530E48A32663836600790DA3 /* Parent_s_GuideTests.swift in Sources */,
+				530E48E0266385D800790DA3 /* parentsguideTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530E48A52663836600790DA3 /* Sources */ = {
+		530E48E2266385D800790DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530E48AE2663836600790DA3 /* Parent_s_GuideUITests.swift in Sources */,
+				530E48EB266385D800790DA3 /* parentsguideUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		530E48A02663836600790DA3 /* PBXTargetDependency */ = {
+		530E48DD266385D800790DA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 530E48872663836100790DA3 /* Parent's Guide */;
-			targetProxy = 530E489F2663836600790DA3 /* PBXContainerItemProxy */;
+			target = 530E48C4266385D200790DA3 /* parentsguide */;
+			targetProxy = 530E48DC266385D800790DA3 /* PBXContainerItemProxy */;
 		};
-		530E48AB2663836600790DA3 /* PBXTargetDependency */ = {
+		530E48E8266385D800790DA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 530E48872663836100790DA3 /* Parent's Guide */;
-			targetProxy = 530E48AA2663836600790DA3 /* PBXContainerItemProxy */;
+			target = 530E48C4266385D200790DA3 /* parentsguide */;
+			targetProxy = 530E48E7266385D800790DA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		530E48B02663836600790DA3 /* Debug */ = {
+		530E48ED266385D800790DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		530E48B12663836600790DA3 /* Release */ = {
+		530E48EE266385D800790DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,169 +420,169 @@
 			};
 			name = Release;
 		};
-		530E48B32663836600790DA3 /* Debug */ = {
+		530E48F0266385D800790DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Parent's Guide/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"parentsguide/Preview Content\"";
 				DEVELOPMENT_TEAM = 8BVTTN7PFH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Parent's Guide/Info.plist";
+				INFOPLIST_FILE = parentsguide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.Parent-s-Guide";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.parentsguide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		530E48B42663836600790DA3 /* Release */ = {
+		530E48F1266385D800790DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Parent's Guide/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"parentsguide/Preview Content\"";
 				DEVELOPMENT_TEAM = 8BVTTN7PFH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Parent's Guide/Info.plist";
+				INFOPLIST_FILE = parentsguide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.Parent-s-Guide";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.parentsguide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		530E48B62663836600790DA3 /* Debug */ = {
+		530E48F3266385D800790DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BVTTN7PFH;
-				INFOPLIST_FILE = "Parent's GuideTests/Info.plist";
+				INFOPLIST_FILE = parentsguideTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.Parent-s-GuideTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.parentsguideTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parent's Guide.app/Parent's Guide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parentsguide.app/parentsguide";
 			};
 			name = Debug;
 		};
-		530E48B72663836600790DA3 /* Release */ = {
+		530E48F4266385D800790DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BVTTN7PFH;
-				INFOPLIST_FILE = "Parent's GuideTests/Info.plist";
+				INFOPLIST_FILE = parentsguideTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.Parent-s-GuideTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.parentsguideTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parent's Guide.app/Parent's Guide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parentsguide.app/parentsguide";
 			};
 			name = Release;
 		};
-		530E48B92663836600790DA3 /* Debug */ = {
+		530E48F6266385D800790DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BVTTN7PFH;
-				INFOPLIST_FILE = "Parent's GuideUITests/Info.plist";
+				INFOPLIST_FILE = parentsguideUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.Parent-s-GuideUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.parentsguideUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Parent's Guide";
+				TEST_TARGET_NAME = parentsguide;
 			};
 			name = Debug;
 		};
-		530E48BA2663836600790DA3 /* Release */ = {
+		530E48F7266385D800790DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BVTTN7PFH;
-				INFOPLIST_FILE = "Parent's GuideUITests/Info.plist";
+				INFOPLIST_FILE = parentsguideUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.Parent-s-GuideUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.parentsguideUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Parent's Guide";
+				TEST_TARGET_NAME = parentsguide;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		530E48832663836100790DA3 /* Build configuration list for PBXProject "Parent's Guide" */ = {
+		530E48C0266385D200790DA3 /* Build configuration list for PBXProject "parentsguide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				530E48B02663836600790DA3 /* Debug */,
-				530E48B12663836600790DA3 /* Release */,
+				530E48ED266385D800790DA3 /* Debug */,
+				530E48EE266385D800790DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		530E48B22663836600790DA3 /* Build configuration list for PBXNativeTarget "Parent's Guide" */ = {
+		530E48EF266385D800790DA3 /* Build configuration list for PBXNativeTarget "parentsguide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				530E48B32663836600790DA3 /* Debug */,
-				530E48B42663836600790DA3 /* Release */,
+				530E48F0266385D800790DA3 /* Debug */,
+				530E48F1266385D800790DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		530E48B52663836600790DA3 /* Build configuration list for PBXNativeTarget "Parent's GuideTests" */ = {
+		530E48F2266385D800790DA3 /* Build configuration list for PBXNativeTarget "parentsguideTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				530E48B62663836600790DA3 /* Debug */,
-				530E48B72663836600790DA3 /* Release */,
+				530E48F3266385D800790DA3 /* Debug */,
+				530E48F4266385D800790DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		530E48B82663836600790DA3 /* Build configuration list for PBXNativeTarget "Parent's GuideUITests" */ = {
+		530E48F5266385D800790DA3 /* Build configuration list for PBXNativeTarget "parentsguideUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				530E48B92663836600790DA3 /* Debug */,
-				530E48BA2663836600790DA3 /* Release */,
+				530E48F6266385D800790DA3 /* Debug */,
+				530E48F7266385D800790DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -590,17 +590,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		530E48962663836600790DA3 /* Parent_s_Guide.xcdatamodeld */ = {
+		530E48D3266385D800790DA3 /* parentsguide.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				530E48972663836600790DA3 /* Parent_s_Guide.xcdatamodel */,
+				530E48D4266385D800790DA3 /* parentsguide.xcdatamodel */,
 			);
-			currentVersion = 530E48972663836600790DA3 /* Parent_s_Guide.xcdatamodel */;
-			path = Parent_s_Guide.xcdatamodeld;
+			currentVersion = 530E48D4266385D800790DA3 /* parentsguide.xcdatamodel */;
+			path = parentsguide.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 530E48802663836100790DA3 /* Project object */;
+	rootObject = 530E48BD266385D200790DA3 /* Project object */;
 }

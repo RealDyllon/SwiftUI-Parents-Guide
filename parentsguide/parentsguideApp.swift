@@ -1,6 +1,6 @@
 //
-//  Parent_s_GuideApp.swift
-//  Parent's Guide
+//  parentsguideApp.swift
+//  parentsguide
 //
 //  Created by Dyllon on 30/5/21.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Parent_s_GuideApp: App {
+struct parentsguideApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
